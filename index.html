@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Advice Generator App</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="container--inner">
+      <section class="advice-card--top">
+        <span class="heading">Advice</span>
+        <span class="advice-id">#00</span>
+      </section>
+
+      <section class="advice-card--content">
+        <p class="advice-quote">
+          "Nothing will work, unless you do."
+        </p>
+      </section>
+
+      <section class="divider">
+        <picture>
+          <source media="(min-width:650px)" srcset="./images/pattern-divider-desktop.svg">
+          <source media="(max-width: 767px)" srcset="./images/pattern-divider-mobile.svg">
+          <img src="./images/pattern-divider-desktop.svg" alt="Pattern divider" style="width:auto;">
+        </picture>
+      </section>
+    </div>
+
+    <button class="btn">
+      <img src="./images/icon-dice.svg" alt="">
+    </button>
+
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
